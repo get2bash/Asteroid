@@ -23,6 +23,7 @@ def main():
                 return
         
         log_state()
+        player.update(dt)
         screen.fill("black")
         player.draw(screen)
         pygame.display.flip()
